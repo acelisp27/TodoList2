@@ -43,10 +43,10 @@ struct ListView: View {
 }
 
 #Preview {
-    NavigationView {
-        ListView()
-    }
-    .environmentObject(ListViewModel())
-    
+   
+        NavigationView {
+            ListView()
+        }
+        .environmentObject(ListViewModel())
 }
 
